@@ -25,7 +25,7 @@ def download_paper(id: str, output: str):
     os.makedirs(output, exist_ok=True)
     print(f'Downloading paper {new_id} to {output}')
     # Download the paper
-    command = f'curl --max-time 20 -o {output}/{new_id}.pdf https://arxiv.org/pdf/{new_id}.pdf'
+    command = f'curl --max-time 10 -o {output}/{new_id}.pdf https://arxiv.org/pdf/{new_id}.pdf'
     # Check the return value of curl
     max_attempts = 10
     while os.system(command) != 0 and max_attempts > 0:
