@@ -1,0 +1,5 @@
+*.pdf
+__pycache__/
+.git/
+configs/*
+!configs/config.ini
