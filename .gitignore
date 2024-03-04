@@ -2,4 +2,4 @@
 __pycache__/
 .git/
 configs/*
-!configs/config.ini
+!configs/sample.ini
