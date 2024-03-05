@@ -3,6 +3,7 @@ import re
 
 arxiv_patterns = [
     '([0-9]+\.[0-9]+)',
+    'arxiv:([0-9]+\.[0-9]+)',
     'arxiv.org/abs/([0-9]+\.[0-9]+)',
     'https://arxiv.org/abs/([0-9]+\.[0-9]+)',
     'arxiv.org/pdf/([0-9]+\.[0-9]+).pdf',
